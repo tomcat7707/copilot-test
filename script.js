@@ -1,88 +1,88 @@
-// 상품 데이터 (Unsplash 무료 이미지 URL 포함)
+// 상품 데이터 (안정적인 무료 이미지 URL 포함)
 const products = [
     {
         id: 1,
         name: '클래식 화이트 셔츠',
         category: 'women',
         price: 45000,
-        image: 'https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?white-shirt,women'
     },
     {
         id: 2,
         name: '스트라이프 블라우스',
         category: 'women',
         price: 52000,
-        image: 'https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?striped-blouse,women'
     },
     {
         id: 3,
         name: '캐주얼 청바지',
         category: 'women',
         price: 65000,
-        image: 'https://images.unsplash.com/photo-1542272604-787c62d465d1?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?jeans,women'
     },
     {
         id: 4,
         name: '슬림핏 셔츠',
         category: 'men',
         price: 48000,
-        image: 'https://images.unsplash.com/photo-1596662712007-11b9a237553d?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?shirt,men'
     },
     {
         id: 5,
         name: '검정 스웨터',
         category: 'men',
         price: 55000,
-        image: 'https://images.unsplash.com/photo-1578932750294-708eaa3624e0?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?black-sweater,men'
     },
     {
         id: 6,
         name: '데님 재킷',
         category: 'men',
         price: 78000,
-        image: 'https://images.unsplash.com/photo-1591047990975-e71eb41d75ce?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?denim-jacket,men'
     },
     {
         id: 7,
         name: '플로럴 드레스',
         category: 'women',
         price: 72000,
-        image: 'https://images.unsplash.com/photo-1595777707802-91d177c547e1?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?floral-dress,women'
     },
     {
         id: 8,
         name: '크롭 탑',
         category: 'women',
         price: 35000,
-        image: 'https://images.unsplash.com/photo-1542321021-7ab264b275f7?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?crop-top,women'
     },
     {
         id: 9,
         name: '카고 팬츠',
         category: 'men',
         price: 62000,
-        image: 'https://images.unsplash.com/photo-1473621038790-b3592e248d16?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?cargo-pants,men'
     },
     {
         id: 10,
         name: '가죽 핸드백',
         category: 'accessories',
         price: 89000,
-        image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?leather-bag,fashion'
     },
     {
         id: 11,
         name: '선글라스',
         category: 'accessories',
         price: 42000,
-        image: 'https://images.unsplash.com/photo-1511499767150-a48a237aa25d?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?sunglasses,fashion'
     },
     {
         id: 12,
         name: '스카프',
         category: 'accessories',
         price: 28000,
-        image: 'https://images.unsplash.com/photo-1574896369812-fd2cf02d1c3d?w=400&h=400&fit=crop'
+        image: 'https://source.unsplash.com/400x400/?scarf,fashion'
     }
 ];
 
