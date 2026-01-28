@@ -201,11 +201,11 @@ function showAddToCartNotification() {
         position: fixed;
         top: 80px;
         right: 20px;
-        background: linear-gradient(135deg, #FF6B9D, #C44569);
+        background: #1a1a1a;
         color: white;
         padding: 15px 25px;
-        border-radius: 8px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         animation: slideInRight 0.5s ease;
         z-index: 999;
         font-weight: bold;
