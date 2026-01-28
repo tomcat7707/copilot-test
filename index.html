@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleHub - 트렌디한 의류 쇼핑</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">StyleHub</div>
+            <ul class="nav-menu">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#products">상품</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#contact">연락</a></li>
+            </ul>
+            <div class="cart-icon" id="cartIcon">
+                🛒 <span id="cartCount" class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>당신의 스타일을 찾아보세요</h1>
+            <p>최신 트렌드의 아름다운 의류를 특별한 가격에</p>
+            <button class="cta-button" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">지금 쇼핑하기</button>
+        </div>
+    </section>
+
+    <!-- 카테고리 필터 -->
+    <section class="filters">
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">모두</button>
+            <button class="filter-btn" data-filter="women">여성</button>
+            <button class="filter-btn" data-filter="men">남성</button>
+            <button class="filter-btn" data-filter="accessories">액세서리</button>
+        </div>
+    </section>
+
+    <!-- 상품 섹션 -->
+    <section id="products" class="products">
+        <div class="section-title">
+            <h2>인기 상품</h2>
+            <p>이달의 추천 의류를 확인해보세요</p>
+        </div>
+        <div class="product-grid" id="productGrid">
+            <!-- 상품 카드가 JavaScript로 동적으로 생성됩니다 -->
+        </div>
+    </section>
+
+    <!-- 장바구니 모달 -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>🛒 장바구니</h2>
+            <div id="cartItems" class="cart-items">
+                <!-- 장바구니 항목이 여기에 추가됩니다 -->
+            </div>
+            <div class="cart-summary">
+                <h3>총액: <span id="totalPrice">0</span>원</h3>
+                <button class="checkout-btn">결제하기</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 소개 섹션 -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>StyleHub에 대해</h2>
+            <p>StyleHub는 세계적인 트렌드를 반영한 고품질의 의류를 합리적인 가격에 제공하는 온라인 쇼핑몰입니다. 우리는 고객의 개성을 존중하며 최고의 쇼핑 경험을 제공하기 위해 항상 노력하고 있습니다.</p>
+        </div>
+    </section>
+
+    <!-- 연락처 섹션 -->
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2>연락처</h2>
+            <div class="contact-info">
+                <p>📧 Email: info@stylehub.com</p>
+                <p>📱 Phone: 010-1234-5678</p>
+                <p>📍 Address: 서울시 강남구 테헤란로 123</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <p>&copy; 2026 StyleHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
