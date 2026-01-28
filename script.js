@@ -1,88 +1,88 @@
-// 상품 데이터 (안정적인 무료 이미지 URL 포함)
+// 상품 데이터 (picsum.photos 안정적 이미지)
 const products = [
     {
         id: 1,
         name: '클래식 화이트 셔츠',
         category: 'women',
         price: 45000,
-        image: 'https://source.unsplash.com/400x400/?white-shirt,women'
+        image: 'https://picsum.photos/400/400?random=1'
     },
     {
         id: 2,
         name: '스트라이프 블라우스',
         category: 'women',
         price: 52000,
-        image: 'https://source.unsplash.com/400x400/?striped-blouse,women'
+        image: 'https://picsum.photos/400/400?random=2'
     },
     {
         id: 3,
         name: '캐주얼 청바지',
         category: 'women',
         price: 65000,
-        image: 'https://source.unsplash.com/400x400/?jeans,women'
+        image: 'https://picsum.photos/400/400?random=3'
     },
     {
         id: 4,
         name: '슬림핏 셔츠',
         category: 'men',
         price: 48000,
-        image: 'https://source.unsplash.com/400x400/?shirt,men'
+        image: 'https://picsum.photos/400/400?random=4'
     },
     {
         id: 5,
         name: '검정 스웨터',
         category: 'men',
         price: 55000,
-        image: 'https://source.unsplash.com/400x400/?black-sweater,men'
+        image: 'https://picsum.photos/400/400?random=5'
     },
     {
         id: 6,
         name: '데님 재킷',
         category: 'men',
         price: 78000,
-        image: 'https://source.unsplash.com/400x400/?denim-jacket,men'
+        image: 'https://picsum.photos/400/400?random=6'
     },
     {
         id: 7,
         name: '플로럴 드레스',
         category: 'women',
         price: 72000,
-        image: 'https://source.unsplash.com/400x400/?floral-dress,women'
+        image: 'https://picsum.photos/400/400?random=7'
     },
     {
         id: 8,
         name: '크롭 탑',
         category: 'women',
         price: 35000,
-        image: 'https://source.unsplash.com/400x400/?crop-top,women'
+        image: 'https://picsum.photos/400/400?random=8'
     },
     {
         id: 9,
         name: '카고 팬츠',
         category: 'men',
         price: 62000,
-        image: 'https://source.unsplash.com/400x400/?cargo-pants,men'
+        image: 'https://picsum.photos/400/400?random=9'
     },
     {
         id: 10,
         name: '가죽 핸드백',
         category: 'accessories',
         price: 89000,
-        image: 'https://source.unsplash.com/400x400/?leather-bag,fashion'
+        image: 'https://picsum.photos/400/400?random=10'
     },
     {
         id: 11,
         name: '선글라스',
         category: 'accessories',
         price: 42000,
-        image: 'https://source.unsplash.com/400x400/?sunglasses,fashion'
+        image: 'https://picsum.photos/400/400?random=11'
     },
     {
         id: 12,
         name: '스카프',
         category: 'accessories',
         price: 28000,
-        image: 'https://source.unsplash.com/400x400/?scarf,fashion'
+        image: 'https://picsum.photos/400/400?random=12'
     }
 ];
 
